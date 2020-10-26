@@ -1,0 +1,161 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Candara;
+}
+#edit{
+    background-color: #F5F1F2
+}
+
+#profile{
+    background-image: url(http://localhost/build/resources/images/profile/profile_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#profile h3{
+    font-size: 1.2rem;
+    margin-top: 2vh;
+}
+.avatar{
+    margin-top:4rem;
+    border-radius: 50%;
+    width: 10vh;
+    /*margin: auto;*/
+}
+
+#profilebar{
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 10vw;
+}
+#profilebar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2vh;
+    font-family: Candara;
+    padding:1.5vh;
+    margin-left: 6vw;
+    margin-right:6vw;
+}
+#profilebar p{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.settings{
+    position: absolute;
+    right: 5vw;
+    top: 10vw;
+}
+
+.card{
+    /*border:solid 1vh;*/
+    margin-top:1em ;
+    margin-bottom: 2rem;
+}
+.card h5{
+    font-weight: bold;
+}
+.card p{
+    line-height: 100%;
+    font-family: Candara;
+    color: #828282;
+}
+
+#set{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 3rem;
+    padding: 0,0,0,1vw;
+}
+#set img{
+    position: absolute;
+    left: 3vw;
+    top: 2rem;
+}
+.col{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 2vw;
+}
+#note{
+    margin-right:0;
+    padding-right: 0;
+    color: #828282;
+}
+#hr{
+    margin-top: 50vw;
+}
+#logout{
+    text-align: center;
+}
+#logout .col{
+    color: #FF5F58;
+}
+
+.switch-box {
+    display: block;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+    margin-left: 3rem;
+}
+.switch-box .switch-box-slider {
+    position: relative;
+    display: inline-block;
+    height: 1.5rem;
+    width: 4rem;
+    background: #d5d5d5;
+    border-radius:1.87rem;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  .switch-box .switch-box-slider:after {
+    position: absolute;
+    left: -0.1rem;
+    top: -0.1rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background: #eeeeee;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    content: '';
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.switch-box .switch-box-input {
+    display: none;
+}
+.switch-box .switch-box-input ~ .switch-box-label {
+    margin-left: 2rem;
+}
+.switch-box .switch-box-input:checked ~ .switch-box-slider:after {
+    left: 2.55rem;
+}
+.switch-box .switch-box-input:disabled ~ .switch-box-slider {
+    background: #e2e2e2;
+    cursor: default;
+}
+.switch-box .switch-box-input:disabled ~ .switch-box-slider:after {
+    background: white;
+}
+.switch-box.is-success .switch-box-input:checked:not(:disabled) ~ .switch-box-slider {
+    background: #52DF8E;
+}
+  .switch-box.is-success .switch-box-input:checked:not(:disabled) ~ .switch-box-slider:after {
+    background: white;
+}

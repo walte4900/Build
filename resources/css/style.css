@@ -1,0 +1,385 @@
+/* 主页背景色 */
+#all{
+    background-color: #F5F1F2;
+}
+
+/* 主页各种小东西 */
+/* 搜索框边上的coupon */
+#coupon-2{
+    margin-left: 20px;
+    height: 46px;
+    width: 46px;
+    border-radius: 50px;
+}
+
+/* 搜索框下面的地点选择 */
+#search-position{
+    height: auto;
+    float: left;
+}
+
+#search-position img{
+    width: 43px;
+    height: 43px;
+    /* border: lawngreen solid 2px; */
+    float: left;
+}
+
+/* 显示地点 */
+#search-position h1{
+    float: right;
+    /* border: solid 2px khaki; */
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: unset;
+}
+
+/* 搜索栏下面的drop-down */
+.sort-button {
+    color: black;
+    background-color: #F5F1F2;
+    margin-top:32px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    outline:none;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.sort-button {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下面导航栏 */
+.footer{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #BDBDBD;
+}
+
+.icons li{
+    list-style-type:none;
+    float: left;
+    margin-top: 15px;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+#home-icon{
+    width: 30px;
+    height: 42px;
+    margin-top: -5px;
+    vertical-align:middle;
+    margin-right:28px;
+}
+
+#maps-icon{
+    width:38px;
+    height:46px;
+    margin-top: -10px;
+    vertical-align:middle;
+    margin-right:10px;
+}
+
+#camera-icon{
+    width:55px;
+    height:55px;
+    background-image: url(../images/camera2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid #BDBDBD 10px;
+    border-radius: 55px;
+    margin-top: -40px;
+}
+
+#favorite-icon{
+    width:40px;
+    height:46px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+#person-icon{
+    width:29px;
+    height:40px;
+    margin-top: -4px;
+    margin-left: 28px;
+}
+
+/* 登陆页面 */
+.containner-2 {
+    font-family: 'Playball', cursive;
+    font-size: 16px;
+    color: rgba(69, 188, 120);
+    margin-top: 60px;
+}
+
+.containner-2 img{
+    object-fit: cover;
+    width: 144px;
+    /* height:144px; */
+    margin-top: -40px;
+}
+
+@media screen and (min-width: 500px){
+    .cancan{
+        padding-left: 14%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .cancan{
+        padding-left: 25%;
+    }
+
+    #login1-2 h1{
+        font-size: 18px;
+        margin-left: -250px;
+        text-align: center;
+        margin-top: 20px;
+        /* margin-bottom: 10px; */
+    }
+
+    #login1-2 ul{
+        list-style-type: none;
+        margin-left: 5%;
+        /* margin-bottom: 30px; */
+    }
+}
+
+.containner-2 h1{
+    margin-top: 0;
+}
+
+.col-2 {
+    text-align: center;
+}
+
+#login1 h1{
+    font-size: 20px;
+    margin-left: 41px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#login1-1{
+    padding-left: 38px;
+    width: 300px;
+}
+
+#login1-1 input[type=text]{
+    width: 280px;
+    height: 62px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+#login1-1 input[type=password]{
+    width: 280px;
+    height: 62px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+#login1-1 label{
+    font-size: 12px;
+    margin-left: 190px;
+    font-weight: bold;
+}
+
+#login1-1 input[type=submit]{
+    width: 280px;
+    height: 62px;
+    background-color: rgba(69, 188, 120);
+    font-size: 18px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+#login1-2 h1{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#login1-2 ul{
+    list-style-type: none;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+#login1-2 ul li {
+    float:left;
+}
+
+#login1-2 img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+#and{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* 注册页面 */
+#login2{
+    padding-left: 38px;
+    width: 300px;
+}
+
+#login2 input[type=text]{
+    width: 280px;
+    height: 62px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+#login2 input[type=password]{
+    width: 280px;
+    height: 62px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+#login2 input[type=button]{
+    width: 280px;
+    height: 62px;
+    background-color: rgba(69, 188, 120);
+    font-size: 18px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px #888888;
+}
+
+.back-icon{
+    width: 47px;
+    height: 47px;
+    margin-top: 43px;
+    margin-left: 16px;
+}
+
+#login2-2 h1{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+#login2-2 ul{
+    list-style-type: none;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+#login2-2 ul li {
+    float:left;
+}
+
+#login2-2 img{
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+}
+
+/* profile页面 */
+/* profile上半部分的用户的头像的背景 */
+#profile{
+    background-image: url(http://localhost/build/resources/images/profile/profile_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+/* 用户名 */
+#profile h3{
+    font-size: 1.2rem;
+    margin: 2vh auto 0 auto;
+}
+/* 头像 */
+.avatar{
+    /* margin-top:4rem; */
+    border-radius: 50%;
+    width: 10vh;
+    margin: 4rem auto 0 auto;
+}
+/* 用户的四个 */
+#profilebar{
+    list-style-type: none;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 10vw;
+}
+#profilebar a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 2vh;
+    font-family: Candara;
+    padding:1.5vh;
+    margin-left: 6vw;
+    margin-right:6vw;
+}
+#profilebar p{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vh;
+    margin-bottom: 1vh;
+}
+/* 设置图标 */
+.settings{
+    position: absolute;
+    right: 5vw;
+    top: 10vw;
+}
+
+#author_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 258px;
+}
